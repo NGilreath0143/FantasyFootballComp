@@ -81,3 +81,109 @@ footer a:active {
 footer a:focus {
     color: #fff;
 }
+
+.home h2 {
+    background-color: #000;
+    color: #fff;
+    width: 250px;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px 0 0 0;
+    text-align: center;
+}
+
+.home .featured-video {
+    border: 5px #000 solid;
+    padding: 0;
+    background: #4f6e47;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 401px;
+}
+
+.home .featured-video iframe {
+    padding: 15px 0px 18px 15px;
+    margin: -15px -15px -25px -15px;
+    float: left;
+}
+
+.home .featured-video .description {
+    float:right;
+    text-align: left;
+    width: 361px;
+    color: #000;
+    background-color: #EBE6E9;
+    padding: 15px;
+    height: 100%;
+    overflow: auto;
+    border-left: 5px solid #000;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.home hr {
+    /* border: 2px solid #000; */
+    clear: both;
+}
+
+.home .podcasts-container {
+    width: 800px;
+    float: left;
+}
+
+.home .podcast-list {
+    border: 5px #000 solid;
+    background: #EBE6E9;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 360px;
+    line-height: normal;
+    overflow: auto;
+    white-space:nowrap;
+}
+
+.home .podcast-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home .podcast-list li {
+    display: inline-block;
+    white-space: initial;
+}
+
+.home .podcast-list .podcast {
+    max-width: 300px;
+    margin: 20px 30px 20px 10px; 
+}
+
+.home .active-leagues-container {
+    float: right;
+    width: 300px;
+}
+
+.home .active-leagues-list {
+    border: 5px #000 solid;
+    background: #EBE6E9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 360px;
+    line-height: 100%;
+    overflow: auto;
+    white-space:nowrap;
+}
+
+.home .active-leagues-list li {
+    margin-top: 15px;
+}
+
+.home .active-leagues-list li li {
+    margin-top: 0px;
+}
+
+.home .active-leagues-container h2 {
+    width: 300px;
+}
