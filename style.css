@@ -112,7 +112,7 @@ footer a:focus {
 .home .featured-video .description {
     float:right;
     text-align: left;
-    width: 361px;
+    width: 33%;
     color: #000;
     background-color: #EBE6E9;
     padding: 15px;
@@ -129,7 +129,7 @@ footer a:focus {
 }
 
 .home .podcasts-container {
-    width: 800px;
+    width: 68%;
     float: left;
 }
 
@@ -157,12 +157,12 @@ footer a:focus {
 
 .home .podcast-list .podcast {
     max-width: 300px;
-    margin: 20px 30px 20px 10px; 
+    margin: 20px 10% 20px 10px; 
 }
 
 .home .active-leagues-container {
     float: right;
-    width: 300px;
+    width: 30%;
 }
 
 .home .active-leagues-list {
@@ -185,5 +185,6 @@ footer a:focus {
 }
 
 .home .active-leagues-container h2 {
-    width: 300px;
+    width: 100%;
+    /*height: 20*/
 }
