@@ -7,7 +7,7 @@ body {
     height: 100%;
     margin: 0 auto;
     font-family: sans-serif;
-    background: #0e7b3c;
+    background: darkgreen;
 }
 
 nav {
@@ -187,6 +187,33 @@ footer a:focus {
 .home .active-leagues-container h2 {
     width: 100%;
     /*height: 20*/
+}
+
+.podcasts, .home {
+    background-color: #EBE6E9;
+    border: 5px solid #000;
+    border-top: none;
+    padding: 15px;
+}
+
+.podcasts .podcast p {
+    float: left;
+}
+
+.podcasts .podcast .podcast-description {
+    float: left;
+    width: 60%;
+    margin-left: 15px;
+}
+
+.podcasts hr {
+    clear: both;
+}
+.podcasts .podcast img {
+    border: 3px solid #0e7b3c;
+}
+.podcast-list-container {
+    margin-top: 35px;
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
