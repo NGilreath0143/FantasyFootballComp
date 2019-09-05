@@ -117,7 +117,7 @@ footer a:focus {
 .home .featured-video .description {
     text-align: left;
     color: #000;
-    background-color: #EBE6E9;
+    background-color: #AC0208;
     padding: 15px;
     height: 100%;
     border-top: 5px solid #000;
@@ -137,7 +137,7 @@ footer a:focus {
 
 .home .podcast-list {
     border: 5px #000 solid;
-    background: #EBE6E9;
+    background: #AC0208;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -169,7 +169,7 @@ footer a:focus {
 
 .home .active-leagues-list {
     border: 5px #000 solid;
-    background: #EBE6E9;
+    background: #AC0208;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 360px;
