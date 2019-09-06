@@ -225,6 +225,10 @@ footer a:focus {
     /*height: 20*/
 }
 
+.home .league-link {
+    float: left;
+}
+
 .podcasts, .home {
     background-color: #EBE6E9;
     border: 5px solid #000;
@@ -266,6 +270,12 @@ footer a:focus {
         width: 895px;
         height: 504px;
     }
+
+    .home .league-link {
+        float: left;
+        margin-top: 5%;
+    }
+
     .home .podcast-list {
         height: 355px;
     }
@@ -320,6 +330,10 @@ footer a:focus {
     }
     .home .featured-video .description {
         font-size: 90%;
+    }
+    .home .league-link {
+        float: left;
+        margin-top: 5%;
     }
     .home .podcast-list {
         height: 305px;
