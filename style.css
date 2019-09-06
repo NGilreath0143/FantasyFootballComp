@@ -334,6 +334,45 @@ footer a:focus {
     .home .active-leagues-list .league-right-column ul {
         padding: 0;
     }
+    
+    .podcasts, .home {
+        background-color: #EBE6E9;
+        border: 5px solid #000;
+        border-top: none;
+    }
+    
+    .podcasts .podcast p {
+        float: left;
+        width: 455px;
+        margin-left: 12%;
+    }
+    
+    .podcasts .podcast .podcast-description {
+        float: left;
+        width: 475px;
+        margin-left: 40px;
+    }
+    
+    .podcasts hr {
+        clear: both;
+        float: left;
+        margin-left: 50%;
+    }
+
+    .podcast .podcast-title {
+        float: left;
+        width: 455px;
+        margin-left: 12%;
+    }
+
+    .podcasts .podcast img {
+        border: 3px solid darkgreen;
+        width: 455px;
+        margin-left: 20px;
+    }
+    .podcast-list-container {
+        margin-top: 35px;
+    }
 }
 
 @media (max-width: 768px) and (min-width: 576px) {
@@ -427,5 +466,84 @@ footer a:focus {
     
     .home .active-leagues-list {
         margin: 0px 0px 15px 0px;
+    }
+
+    .podcasts, .home {
+        background-color: #EBE6E9;
+        border: 5px solid #000;
+        border-top: none;
+    }
+    
+    .podcasts .podcast p {
+        float: left;
+        width: 375px;
+        margin-left: 10%;
+    }
+    
+    .podcasts .podcast .podcast-description {
+        float: left;
+        width: 500px;
+        margin-left: 0%;
+    }
+    
+    .podcasts hr {
+        clear: both;
+        float: left;
+        margin-left: 50%;
+    }
+
+    .podcast .podcast-title {
+        float: left;
+        width: 375px;
+        margin-left: 10%;
+    }
+
+    .podcasts .podcast img {
+        border: 3px solid darkgreen;
+        width: 375px;
+    }
+    .podcast-list-container {
+        margin-top: 35px;
+    }
+
+    .podcasts, .home {
+        background-color: #EBE6E9;
+        border: 5px solid #000;
+        border-top: none;
+        width: 78%;
+    }
+    
+    .podcasts .podcast p {
+        align-content: center;
+        float: left;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .podcasts .podcast .podcast-description {
+        float: left;
+        width: 80%;
+        margin-left: 0%;
+    }
+    
+    .podcasts hr {
+        clear: both;
+        float: left;
+        margin-left: 0%;
+    }
+
+    .podcast .podcast-title {
+        float: left;
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .podcasts .podcast img {
+        border: 3px solid darkgreen;
+        margin-left: 0%;
+        width: 80%;
+    }
+    .podcast-list-container {
+        margin-top: 35px;
     }
 }
