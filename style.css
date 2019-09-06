@@ -234,10 +234,15 @@ footer a:focus {
     border: 5px solid #000;
     border-top: none;
 }
-.podcasts .podcast a {
+.podcasts .podcast .podcast-description .podcast-title a {
     color: #000;
     font-weight: bold;
 }
+
+.podcasts .podcast a {
+    font-weight: bold;
+}
+
 .podcasts .podcast p {
     float: left;
 }
