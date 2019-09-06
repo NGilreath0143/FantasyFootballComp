@@ -16,6 +16,12 @@ nav {
     background-color: #000;
     height: 53px;
 }
+nav h1 {
+    float: left;
+    margin: 0;
+    font-size: 180%;
+    padding: 9px 0 0 0;
+}
 
 nav li a {
     color: #fff;
@@ -23,7 +29,7 @@ nav li a {
 }
 
 nav ul {
-    
+    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +38,7 @@ nav ul {
 nav li {
     display: block;
     float:left;
-    padding: 14px 32px 14px 0px;
+    padding: 14px 0px 14px 32px;
 }
 
 nav li a:hover {
@@ -93,6 +99,11 @@ footer a:focus {
     text-align: center;
 }
 
+.home h5 {
+    max-height: 70px;
+    overflow: hidden;
+}
+
 .home .featured-video {
     border: 5px #000 solid;
     padding: 0;
@@ -100,13 +111,13 @@ footer a:focus {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    min-height: 619px;
 }
 
 .home .featured-video iframe {
     padding: 15px 0px 18px 15px;
     margin: -15px -15px -18px -15px;
     float: left;
+    width: 1075px;
 }
 
 .home .featured-video .description {
@@ -136,7 +147,7 @@ footer a:focus {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 360px;
+    height: 375px;
     line-height: normal;
     overflow: auto;
     white-space:nowrap;
@@ -149,12 +160,14 @@ footer a:focus {
 
 .home .podcast-list li {
     display: inline-block;
-    white-space: initial;
+    white-space: normal;
+    margin: 0;
+    vertical-align: top
 }
 
 .home .podcast-list .podcast {
-    max-width: 300px;
-    margin: 20px 30px 20px 10px; 
+    max-width: 320px;
+    margin: 20px 10px 0px 10px; 
 }
 
 .home .active-leagues-container {
@@ -167,7 +180,6 @@ footer a:focus {
     background: #EBE6E9;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 360px;
     line-height: 100%;
     overflow: auto;
     white-space:nowrap;
@@ -221,17 +233,199 @@ footer a:focus {
 }
 
 @media (max-width: 1200px) and (min-width: 992px) {
+    nav h1 {
+        font-size: 180%;
+        padding: 10px 0 0 0;
+    }
+    .home h5 {
+        font-size: 150%;
+        max-height: 65px;
+        overflow: hidden;
+    }
+    .home .featured-video iframe {
+        width: 895px;
+        height: 504px;
+    }
+    .home .podcast-list {
+        height: 355px;
+    }
+    .home .podcast-list .podcast {
+        max-width: 320px;
+        font-size: 80%;
+        margin: 10px 8px;
+    }
+    .home .active-leagues-container {
+        width: 100%;
+    }
+    
+    .home .active-leagues-list .league-left-column {
+        float: left;
+        width: 45%;
+    }
 
+    .home .active-leagues-list .league-right-column {
+        float: right;
+        width: 45%;
+    }
+
+    .home .active-leagues-list .league-right-column ul {
+        padding: 0;
+    }
+
+    .home .active-leagues-list {
+        margin: 0px 0px 15px 0px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    nav h1 {
+        font-size: 160%;
+        padding: 12px 0 0 0;
+    }
+    .home .featured-video iframe {
+        width: 655px;
+        height: 369px;
+    }
+    .home h2 {
+        font-size: 150%;
+        width: 200px;
+    }
+    .home h4 {
+        font-size: 150%;
+    }
+    .home h5 {
+        font-size: 135%;
+        max-height: 60px;
+        overflow: hidden;
+    }
+    .home .featured-video .description {
+        font-size: 90%;
+    }
+    .home .podcast-list {
+        height: 305px;
+    }
+    .home .podcast-list .podcast {
+        max-width: 240px;
+        font-size: 80%;
+        margin: 10px 5px 0px 5px;
+    }
+    .home .podcast-list .podcast img {
+        width: 240px;
+        height: 135px;
+    }
+    .home .active-leagues-container {
+        width: 100%;
+    }
+    
+    .home .active-leagues-list {
+        margin: 0px 0px 15px 0px;
+    }
 
+    .home .active-leagues-list .league-left-column {
+        float: left;
+        width: 45%;
+    }
+
+    .home .active-leagues-list .league-right-column {
+        float: right;
+        width: 45%;
+    }
+
+    .home .active-leagues-list .league-right-column ul {
+        padding: 0;
+    }
 }
 
 @media (max-width: 768px) and (min-width: 576px) {
-
+    nav h1 {
+        font-size: 145%;
+        padding: 14px 0 0 0;
+    }
+    .home .featured-video iframe {
+        width: 475px;
+        height: 268px;
+    }
+    .home h2 {
+        font-size: 135%;
+        width: 200px;
+    }
+    .home h4 {
+        font-size: 135%;
+    }
+    .home h5 {
+        font-size: 135%;
+        max-height: 60px;
+        overflow: hidden;
+    }
+    .home .featured-video .description {
+        font-size: 80%;
+    }
+    .home .podcast-list {
+        height: 260px;
+    }
+    .home .podcast-list .podcast {
+        max-width: 160px;
+        font-size: 80%;
+        margin: 10px 5px 0px 5px;
+    }
+    .home .podcast-list .podcast img {
+        width: 160px;
+        height: 90px;
+    }
+    .home .active-leagues-container {
+        width: 100%;
+    }
+    
+    .home .active-leagues-list {
+        margin: 0px 0px 15px 0px;
+    }
+    
 }
 
 @media (max-width: 576px) {
-
+    nav h1 {
+        font-size: 130%;
+        padding: 14px 0 0 0;
+    }
+    footer {
+        font-size: 80%;
+    }
+    .home .featured-video iframe {
+        width: calc(100% + 15px);
+        height: calc((90vw)*(315/560));
+    }
+    .home h2 {
+        font-size: 135%;
+        width: 200px;
+    }
+    .home h4 {
+        font-size: 135%;
+    }
+    .home h5 {
+        font-size: 135%;
+        max-height: 60px;
+        overflow: hidden;
+    }
+    .home .featured-video .description {
+        font-size: 80%;
+    }
+    .home .podcast-list {
+        height: 260px;
+    }
+    .home .podcast-list .podcast {
+        max-width: 160px;
+        font-size: 80%;
+        margin: 10px 5px 0px 5px;
+    }
+    .home .podcast-list .podcast img {
+        width: 160px;
+        height: 90px;
+    }
+    .home .active-leagues-container {
+        width: 100%;
+    }
+    
+    .home .active-leagues-list {
+        margin: 0px 0px 15px 0px;
+    }
 }
