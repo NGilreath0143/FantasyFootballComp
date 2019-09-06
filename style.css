@@ -176,6 +176,11 @@ footer a:focus {
 .home .active-leagues-container:not(:last-child){
     margin-right: 53px;
 }
+
+.home .active-leagues-container h2 a {
+    color: #fff;
+}
+
 .home .active-leagues-list li {
     margin-top: 15px;
 }
@@ -209,7 +214,7 @@ footer a:focus {
     clear: both;
 }
 .podcasts .podcast img {
-    border: 3px solid #0e7b3c;
+    border: 3px solid darkgreen;
 }
 .podcast-list-container {
     margin-top: 35px;
