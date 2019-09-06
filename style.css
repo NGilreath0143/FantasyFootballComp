@@ -232,9 +232,7 @@ footer a:focus {
 .podcasts hr {
     clear: both;
 }
-.podcasts .podcast img {
-    border: 3px solid darkgreen;
-}
+
 .podcast-list-container {
     margin-top: 35px;
 }
