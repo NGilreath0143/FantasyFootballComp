@@ -253,6 +253,10 @@ footer a:focus {
     margin-left: 15px;
 }
 
+.podcasts .podcast .podcast-description p {
+    float: none;
+}
+
 .podcasts hr {
     clear: both;
 }
