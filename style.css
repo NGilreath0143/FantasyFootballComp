@@ -291,6 +291,7 @@ footer a:focus {
     }
     .home .active-leagues-container {
         width: 100%;
+        padding-top: 5px;
     }
     
     .home .active-leagues-list .league-left-column {
