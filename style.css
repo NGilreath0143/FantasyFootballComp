@@ -151,6 +151,10 @@ footer a:focus {
     border-bottom-left-radius: 7px;
 }
 
+.home .featured-video .description a {
+    color: #000;
+}
+
 .home hr {
     /* border: 2px solid #000; */
     clear: both;
@@ -187,6 +191,10 @@ footer a:focus {
 .home .podcast-list .podcast {
     max-width: 320px;
     margin: 20px 10px 0px 10px; 
+}
+
+.home .podcast-list .podcast a {
+    color: #000;
 }
 
 .home .active-leagues-container {
@@ -293,6 +301,7 @@ footer a:focus {
         font-size: 80%;
         margin: 10px 8px;
     }
+
     .home .active-leagues-container {
         width: 100%;
     }
